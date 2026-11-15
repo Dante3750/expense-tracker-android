@@ -32,13 +32,13 @@ jobs:
       - uses: gradle/actions/setup-gradle@v6
 
       - name: Unit tests
-        run: ./gradlew testDebugUnitTest --stacktrace
+        run: .github/scripts/gradle.sh testDebugUnitTest --stacktrace
 
       - name: Android lint
-        run: ./gradlew lintDebug
+        run: .github/scripts/gradle.sh lintDebug
 
       - name: Assemble debug APK
-        run: ./gradlew assembleDebug
+        run: .github/scripts/gradle.sh assembleDebug
         env:
           VERSION_CODE: ${{ github.run_number }}
 

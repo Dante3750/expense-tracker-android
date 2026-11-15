@@ -53,6 +53,8 @@ android {
         warningsAsErrors = false
         checkDependencies = true
         sarifReport = true // shown in GitHub's code-scanning tab by CI
+        textReport = true
+        textOutput = file("stdout") // so CI can surface lint errors as annotations
     }
 }
 
