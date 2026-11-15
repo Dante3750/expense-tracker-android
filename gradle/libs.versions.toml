@@ -1,8 +1,9 @@
 [versions]
-# AGP 9.0.x bundles Kotlin Gradle plugin 2.2.10; the Compose compiler plugin and KSP must match it.
+# AGP 9.0.x bundles Kotlin Gradle plugin 2.2.10; the Compose compiler plugin must match it.
+# KSP 2.3.x is versioned independently of Kotlin and is the first line that supports built-in Kotlin.
 agp = "9.0.1"
 kotlin = "2.2.10"
-ksp = "2.2.10-2.0.2"
+ksp = "2.3.6"
 
 coreKtx = "1.17.0"
 lifecycle = "2.10.0"
