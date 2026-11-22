@@ -8,11 +8,11 @@ coreKtx = "1.17.0"
 lifecycle = "2.10.0"
 activityCompose = "1.13.0"
 # Compose 1.11 / Material 3. BOM 2026.08+ (Compose 1.12) needs compileSdk 37 and AGP 9.2+.
-composeBom = "2026.04.01"
-navigation = "2.9.8"
+composeBom = "2026.11.01"
+navigation = "2.10.2"
 # Room 2.8 (androidx.room). Room 3 lives in a new package (androidx.room3) and is a separate migration.
-room = "2.8.4"
-camerax = "1.6.1"
+room = "2.8.5"
+camerax = "1.7.0"
 # Bundled Latin model: ships inside the APK, so OCR works with no network and no Play Services download.
 mlkitTextRecognition = "16.0.1"
 junit = "4.13.2"
